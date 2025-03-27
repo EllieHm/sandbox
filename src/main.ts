@@ -9,6 +9,6 @@ async function bootstrap() {
   });
 
   const configService = app.get<ConfigService>(ConfigService);
-  await app.listen(3000); //
+  await app.listen(3000);
 }
 bootstrap();
